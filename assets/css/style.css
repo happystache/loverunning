@@ -1,12 +1,16 @@
-
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 /*Header*/
 header {
     background-color: lightcoral;
 }
 
 /*Main content*/
-main content {
-    background-color: lightblue;
+main {
+    background-color: royalblue;
 }
 
 /*Footer*/
