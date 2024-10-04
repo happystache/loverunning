@@ -31,6 +31,9 @@ header {
     width: 100%;
     /*3 numbers indicate horiz. offset, vertic. offset, and blur strength*/
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -69,6 +72,16 @@ nav {
     padding: 0 1rem;
     left: 0;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top:100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display:block;
+}
+
+#nav-toggle {
     display: none;
 }
 
